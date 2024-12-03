@@ -1,19 +1,19 @@
-// package main
+package main
 
-// import "fmt"
+import "fmt"
 
-// func main() {
-// 	// 変数の宣言
-// 	var num int = 0
+func main() {
+	// 変数の宣言
+	var num int = 0
 
-// 	// 入力受付
-// 	fmt.Scan(&num)
+	// 入力受付
+	fmt.Scan(&num)
 
-// 	if num >= 1 {
-// 		fmt.Println("正です")
-// 	} else if num == 0 {
-// 		fmt.Println("0です")
-// 	} else {
-// 		fmt.Println("負です")
-// 	}
-// }
+	if num >= 1 {
+		fmt.Println("正です")
+	} else if num == 0 {
+		fmt.Println("0です")
+	} else {
+		fmt.Println("負です")
+	}
+}

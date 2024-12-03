@@ -1,19 +1,19 @@
-// package main
+package main
 
-// import (
-// 	"fmt"
-// )
+import (
+	"fmt"
+)
 
-// func main() {
-// 	var num int
-// 	fmt.Scan(&num)
+func main() {
+	var num int
+	fmt.Scan(&num)
 
-// 	for i := 0; i < num; i++ {
-// 		if i%2 == 0 {
-// 			fmt.Println("◇")
-// 		} else {
-// 			fmt.Println("◆")
-// 		}
+	for i := 0; i < num; i++ {
+		if i%2 == 0 {
+			fmt.Println("◇")
+		} else {
+			fmt.Println("◆")
+		}
 
-// 	}
-// }
+	}
+}

@@ -1,15 +1,15 @@
-// package main
+package main
 
-// import (
-// 	"fmt"
-// )
+import (
+	"fmt"
+)
 
-// func main() {
+func main() {
 
-// 	sum := 0
-// 	for i := 1; i < 11; i++ {
-// 		sum += i
+	sum := 0
+	for i := 1; i < 11; i++ {
+		sum += i
 
-// 	}
-// 	fmt.Println(sum)
-// }
+	}
+	fmt.Println(sum)
+}

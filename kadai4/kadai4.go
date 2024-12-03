@@ -1,19 +1,19 @@
-// package main
+package main
 
-// import "fmt"
+import "fmt"
 
-// func main() {
-// 	num := 0
-// 	fmt.Scan(&num)
+func main() {
+	num := 0
+	fmt.Scan(&num)
 
-// 	for i := 1; i <= num; i++ {
-// 		message := fmt.Sprintf("%d,", i)
-// 		if i == num {
-// 			fmt.Print(i)
-// 			break
-// 		}
-// 		fmt.Print(message)
+	for i := 1; i <= num; i++ {
+		message := fmt.Sprintf("%d,", i)
+		if i == num {
+			fmt.Print(i)
+			break
+		}
+		fmt.Print(message)
 
-// 	}
+	}
 
-// }
+}
